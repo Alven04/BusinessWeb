@@ -38,14 +38,14 @@
 
             <div class="flex flex-wrap">
 
-                <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
+                <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6" action='reviews.php' method="POST">
 
                     <div class="mb-3 w-full">
                         <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
                             Name
                         </label>
                         <input type="text" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90"
-                            placeholder="Name" />
+                            placeholder="Name" autocomplete="off" autofocus required />
                     </div>
 
                     <div class="mb-3 w-full">
@@ -53,17 +53,17 @@
                             Email
                         </label>
                         <input type="email" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90"
-                            placeholder="Enter your email address" />
+                            placeholder="Enter your email address" required />
                     </div>
 
                     <div class="mb-3 w-full">
                         <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
                             Message
                         </label>
-                        <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" name="" id=""></textarea>
+                        <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" name="Message" id="Message" required></textarea>
                     </div>
 
-                    <button type="button"
+                    <button type="submit"
                         class="mb-6 inline-block w-full rounded bg-teal-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500">
                         Send
                     </button>
@@ -85,14 +85,12 @@
                                 </div>
                                 <div class="ml-6 grow">
                                     <p class="mb-2 font-bold">
-                                        Technical support
+                                        Email
                                     </p>
                                     <p class="text-neutral-500 ">
-                                        support@example.com
+                                        alvenlim0404@gmail.com
                                     </p>
-                                    <p class="text-neutral-500 ">
-                                        +1 234-567-89
-                                    </p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -109,13 +107,11 @@
                                 </div>
                                 <div class="ml-6 grow">
                                     <p class="mb-2 font-bold ">
-                                        Sales questions
+                                        Contact Number
                                     </p>
+                                    
                                     <p class="text-neutral-500 ">
-                                        sales@example.com
-                                    </p>
-                                    <p class="text-neutral-500 ">
-                                        +1 234-567-89
+                                        +6012-4886270
                                     </p>
                                 </div>
                             </div>
@@ -132,13 +128,11 @@
                                     </div>
                                 </div>
                                 <div class="ml-6 grow">
-                                    <p class="mb-2 font-bold ">Press</p>
+                                    <p class="mb-2 font-bold ">Facebook</p>
                                     <p class="text-neutral-500 ">
-                                        press@example.com
+                                        (link)
                                     </p>
-                                    <p class="text-neutral-500 ">
-                                        +1 234-567-89
-                                    </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -155,14 +149,11 @@
                                 </div>
                                 <div class="ml-6 grow">
                                     <p class="mb-2 font-bold">
-                                        Bug report
+                                        Google Map
                                     </p>
                                     <p class="text-neutral-500 ">
-                                        bugs@example.com
-                                    </p>
-                                    <p class="text-neutral-500">
-                                        +1 234-567-89
-                                    </p>
+                                        (map)
+                                    </p> 
                                 </div>
                             </div>
                         </div>

@@ -18,6 +18,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style type="text/css">
+    body {
+      background-color: #002244;
+      color: white;
+    }
+    
     .first-container {
       padding: 250px;
       background-color: #002244;
