@@ -22,7 +22,7 @@ Our business website serves as an online presence for our company, providing inf
 - CSS
 - PHP
 
-# Additional technologies used 
+## Additional technologies used 
 - Bootstrap
 - jQuery
 - Tailwindcss
